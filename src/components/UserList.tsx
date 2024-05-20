@@ -1,8 +1,6 @@
 
 import { useEffect } from 'react';
 import { useTypeSelector } from '../hooks/useTypeSelector';
-import { useDispatch } from 'react-redux';
-import { fetchUsers } from '../store/action-creators/user';
 import { useActions } from '../hooks/useAction'
 
 const UserList = () => {
